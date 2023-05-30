@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-content__draggable {
+  width: 200px;
+  padding: 20px 40px;
+  background-color: #1b4db2;
+  border-radius: 10px;
+}
+
+.App-content__droppable-wrapper {
+  width: 400px;
+  height: 200px;
+  margin-top: 30px;
+  color: #1b4db2;
+  background-color: #d1dffb;
+  border: 2px solid #0f2a61;
+}
+
+.App__droppable-wrapper__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
