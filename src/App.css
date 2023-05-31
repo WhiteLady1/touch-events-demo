@@ -19,8 +19,13 @@
   align-items: center;
 }
 
-.App-content__draggable {
-  width: 200px;
+.App-content__draggable-wrapper {
+  display: flex;
+  gap: 20px
+}
+
+.App-content__draggable-items {
+  width: 150px;
   padding: 20px 40px;
   background-color: #1b4db2;
   border-radius: 10px;
